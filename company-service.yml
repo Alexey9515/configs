@@ -4,3 +4,9 @@ server:
 feign:
   hystrix:
     enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      registerWithEureka: true
+      fetchRegistry: true

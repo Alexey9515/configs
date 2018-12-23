@@ -25,3 +25,9 @@ zuul:
 
 server:
   port: 4000
+
+eureka:
+  client:
+    serviceUrl:
+      registerWithEureka: true
+      fetchRegistry: true
