@@ -16,8 +16,11 @@ eureka:
     serviceUrl:
       registerWithEureka: true
       fetchRegistry: true
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://localhost:1002/registry/eureka
 
 spring:
   rabbitmq:
     host: localhost
+
+server:
+  port: 1002
