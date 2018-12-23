@@ -1,6 +1,6 @@
 logging:
   level:
-    org.springframework.security: INFO, ERROR, DEBUG
+    org.springframework.security: INFO ERROR DEBUG
 
 hystrix:
   command:
@@ -9,7 +9,15 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 10000
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      registerWithEureka: true
+      fetchRegistry: true
+      defaultZone: http://localhost:1002/registry-service/eureka
 
 spring:
   rabbitmq:
-    host: localhost
+    host: rabbitmq

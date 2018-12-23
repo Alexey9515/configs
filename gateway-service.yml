@@ -25,12 +25,4 @@ zuul:
 
 server:
   port: 4000
-
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    serviceUrl:
-      registerWithEureka: true
-      fetchRegistry: true
-      defaultZone: http://localhost:1002/registry-service/eureka
+ltZone: http://localhost:1002/registry-service/eureka
