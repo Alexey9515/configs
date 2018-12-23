@@ -22,7 +22,3 @@ zuul:
         serviceId: company-service
         stripPrefix: false
         sensitiveHeaders:
-
-server:
-  port: 4000
-ltZone: http://localhost:1002/registry-service/eureka
