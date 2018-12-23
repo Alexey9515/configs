@@ -6,7 +6,10 @@ feign:
     enabled: true
 
 eureka:
+  instance:
+    hostname: localhost
   client:
     serviceUrl:
       registerWithEureka: true
       fetchRegistry: true
+      defaultZone: http://localhost:1002/registry-service/eureka

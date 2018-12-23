@@ -10,13 +10,6 @@ hystrix:
           thread:
             timeoutInMilliseconds: 10000
 
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:1002/registry-service/eureka
-
 spring:
   rabbitmq:
     host: localhost
