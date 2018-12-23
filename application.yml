@@ -20,4 +20,4 @@ eureka:
 
 spring:
   rabbitmq:
-    host: rabbitmq
+    host: localhost
