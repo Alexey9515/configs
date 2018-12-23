@@ -22,3 +22,6 @@ zuul:
         serviceId: company-service
         stripPrefix: false
         sensitiveHeaders:
+
+server:
+  port: 4000
